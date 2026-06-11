@@ -6,16 +6,16 @@ PAGE_TITLE = "Digital CV | Manushaqe Behrami"
 PAGE_ICON = ":wave:"
 NAME = "Manushaqe Behrami"
 DESCRIPTION = """
-Data Scientist specializing in spatial-sensor data and data-driven decision-making.
+Software Engineer specializing in full stack web development and scalable applications.
 """
 
-EMAIL = "manushaqebehrami03@gmail.com"
-LINKEDIN_URL = "https://www.linkedin.com/in/egezonbaruti"
+EMAIL = "manushaqe@gmail.com"
+LINKEDIN_URL = "https://www.linkedin.com"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Directly reference files in the assets folder (ensure it exists)
-resume_file = "assets/egezon_cv_12_2024.pdf"
+resume_file = "assets/Lorem_ipsum_CV.pdf"
 profile_pic_file = "assets/profile-pic.png"
 
 with open(resume_file, "rb") as pdf_file:
@@ -47,10 +47,10 @@ if page == "Home":
     st.subheader("Experience & Qualifications")
     st.write(
         """
-- ✔️ Extensive experience with spatial-sensor data and algorithm development.
-- ✔️ Skilled in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow.
-- ✔️ Experienced in visualizing and analyzing sensor data to deliver insights.
-- ✔️ Proficient in PowerBI and interactive dashboard development.
+- ✔️ Experience in full stack software development across web applications.
+- ✔️ Strong background in backend and frontend development using modern technologies.
+- ✔️ Experience collaborating in agile teams, code reviews and production environments.
+- ✔️ Focus on clean code, debugging, performance optimization and scalable systems.
 """
     )
 
@@ -59,10 +59,11 @@ if page == "Home":
     st.subheader("Hard Skills")
     st.write(
         """
-- 👩‍💻 Programming: Python (FastAPI, Scikit-learn, Pandas), SQL, DBT
-- 📊 Data Visualization: PowerBI, Streamlit
-- 🗄️ Databases: Snowflake, AWS, PostgreSQL
-- 🤖 Machine Learning: Neural networks, classification algorithms
+- 👩‍💻 Programming: C#, JavaScript, TypeScript, Java, SQL
+- ⚛️ Frontend: ReactJS, VueJS, HTML, CSS
+- 🔧 Backend: ASP.NET Core, NodeJS
+- 🗄️ Databases: MySQL, MongoDB
+- ☁️ Tools & Platforms: Docker, Azure, Git
 """
     )
 
@@ -72,98 +73,62 @@ if page == "Home":
     st.write("---")
 
     # --- JOB 1
-    st.write("🚧", "**Data Scientist | TIVE Inc., Prishtina**")
-    st.write("11/2023 - 11/2024")
+    st.write("🚧", "**Software Engineer | Isa Consulting**")
+    st.write("09/2024 – 11/2025")
     st.write(
         """
-- ► Built classification algorithms for spatial-sensor data using Python (FastAPI), SQL, DBT, and Airflow.
-- ► Analyzed and visualized sensor data trends to support decision-making.
+- ► Developed and maintained backend application features under senior guidance.
+- ► Participated in debugging, testing and improving system reliability and performance.
+- ► Collaborated with cross functional teams in an agile environment.
 """
     )
 
     # --- JOB 2
     st.write("\n")
-    st.write("🚧", "**Data Scientist | Raiffeisen Bank Kosovo, Prishtina**")
-    st.write("10/2021 - 08/2023")
+    st.write("🚧", "**Full Stack Developer Apprentice | LIFE from Gjirafa**")
+    st.write("11/2023 – 09/2024")
     st.write(
         """
-- ► Validated ML scorecards in collaboration with Raiffeisen Bank International.
-- ► Forecasted patterns using advanced data science techniques.
-- ► Developed impactful PowerBI dashboards for business insights.
+- ► Gained hands on experience in full stack development using modern web technologies.
+- ► Worked on frontend and backend features in real world projects
+- ► Contributed to deployment workflows and cloud based applications.
 """
     )
 
     # --- JOB 3
     st.write("\n")
-    st.write("🚧", "**AI Instructor | OSCE, Prishtina**")
-    st.write("05/2023 (Fixed-term)")
+    st.write("🚧", "**Software Development Lecturer | jCoders Academy**")
+    st.write("10/2021 – 09/2024")
     st.write(
         """
-- ► Delivered training on large language models (LLMs) and generative AI.
-- ► Equipped participants with tools to integrate AI in public relations strategies.
+- ► Taught web development fundamentals including JavaScript, HTML, CSS and databases.
+- ► Mentored students through hands on projects and coding exercises.
+- ► Updated and improved learning materials based on industry practices.
 """
     )
 
     # --- JOB 4
     st.write("\n")
-    st.write("🚧", "**Coding Instructor | BIT Academy, Prishtina**")
-    st.write("05/2022 - 05/2023")
+    st.write("🚧", "**Full Stack Developer | Freelance**")
+    st.write("09/2022 – Current")
     st.write(
         """
-- ► Taught Python, SQL, and Django with applications in data science.
-- ► Guided students in machine learning and data visualization projects.
-- ► Conducted backend development workshops and GUI programming with Tkinter.
-"""
-    )
-
-    # --- JOB 5
-    st.write("\n")
-    st.write("🚧", "**Teaching Assistant | London School of Economics / Kolegji Riinvest, Prishtina**")
-    st.write("10/2022 - 06/2023")
-    st.write(
-        """
-- ► Assisted in teaching Machine Learning and Business Analytics.
-- ► Supported students in building machine learning models and data strategies.
-"""
-    )
-
-    # --- JOB 6
-    st.write("\n")
-    st.write("🚧", "**Data Analyst | Finca Kosovo, Prishtina**")
-    st.write("06/2021 - 10/2021")
-    st.write(
-        """
-- ► Developed and implemented machine learning models for scoring.
-- ► Automated daily reports and created data visualizations for stakeholders.
-"""
-    )
-
-    # --- JOB 7
-    st.write("\n")
-    st.write("🚧", "**Math and IT Teacher | International School of Prishtina, Prishtina**")
-    st.write("09/2015 - 05/2021")
-    st.write(
-        """
-- ► Taught Mathematics, IT, and introductory machine learning.
-- ► Served as Vice Principal, showcasing leadership in curriculum development.
-- ► Instructed robotics and coding with Python and Scratch.
+- ► Built full stack web applications using modern frontend and backend technologies.
+- ► Designed and maintained APIs and database driven applications.
+- ► Delivered end to end solutions from planning to deployment.
 """
     )
 
 elif page == "About":
     st.title("About Me")
     st.write("""
-    I am a data scientist with a strong passion for leveraging insights 
-    from spatial-sensor data to drive meaningful, data-driven decisions. 
-    With extensive experience in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow, 
-    I excel at developing algorithms, building ML pipelines, and crafting robust data solutions. 
+    I am a Full Stack Software Developer with experience in building modern web applications
+    across frontend and backend systems. I enjoy working with technologies such as ReactJS,
+    VueJS, C#, JavaScript, Java and ASP.NET Core to create scalable and efficient solutions.
 
-    Over the years, I've collaborated with diverse teams, including 
-    financial institutions and educational organizations, 
-    honing my ability to communicate insights effectively. 
-    Beyond my professional pursuits, I enjoy instructing students 
-    and professionals on AI-related topics, enabling them to harness 
-    the transformative power of machine learning and analytics.
+    I have worked in both development and teaching environments, which strengthened my ability
+    to communicate technical concepts clearly and collaborate effectively in teams. My focus is
+    on building reliable software, improving performance and continuously learning new technologies.
     """)
 
     # Show LinkedIn and Email only on the About page
